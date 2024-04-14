@@ -6,7 +6,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 const PORT = process.env.PORT || 3000;
 
 // Discord bot logic
-const token = 'MTIyODkzNjYzNjYwNDIyMzU2MA.GJqUjy.W5KFjCOfH4XweYcTJz_VEKo89o8XfLFrNHnntM';
+const token = add;
 
 client.once('ready', () => {
     console.log('Bot is ready!');
